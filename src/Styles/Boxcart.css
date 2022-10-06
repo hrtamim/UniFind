@@ -1,0 +1,33 @@
+.Cartbox{
+    height: 180px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.boldText{
+    font-size:12px;
+    text-align: center;
+    font-weight:bold ;
+    margin-top: 10px;
+}
+.details{
+    font-size: 10px;
+    
+    margin-top: 10px;
+    
+}
+.moreButton{
+    height: 15px;
+    width:50px;
+    border-radius: 12.5px;
+    background-color: red;
+    font-size:8px;
+    font-weight:bold ;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 35%;
+}

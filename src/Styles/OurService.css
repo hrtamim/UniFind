@@ -1,0 +1,12 @@
+.box {
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+}

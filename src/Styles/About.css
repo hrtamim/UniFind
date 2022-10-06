@@ -1,0 +1,23 @@
+.contactUs{
+width: 50vw;
+}
+.bigText{
+font-size: larger;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.learnMore{
+align-items: center;
+justify-content: center;
+margin-top: 10vw;
+height: 30px;
+width: 140px;
+font-size: large;
+font-weight: 500;
+color: goldenrod;
+background-color: #255f3e;
+outline: none;
+border-radius: 10px;
+margin-bottom: 80vw;
+
+}

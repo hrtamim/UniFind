@@ -1,0 +1,41 @@
+.findBox{
+    width: 70vw;
+    height: 20px;
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#04D8AE;
+   
+    font-style: italic;
+    font-size: 25px;
+}
+.buttonBox{
+    
+    background-color: black;
+    color: antiquewhite;
+    width: 150px;
+    margin-bottom: 5vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+.boxButton{
+    width: 70vw;
+    height: 20px;
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    
+}
+

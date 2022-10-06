@@ -1,0 +1,80 @@
+.columnBox1{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 30px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+display: flex;
+}
+.columnBox2{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+.columnBox3{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+.columnBox4{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+.columnBox5{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+.columnBox6{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content:center;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+
+.columnBox7{
+    height: 45px;
+color: aliceblue;
+align-items: center;
+justify-content: end;
+margin-left:30px;
+margin-right: 10px;
+font-size: 15px;
+text-align: center;
+display: flex;
+}
+

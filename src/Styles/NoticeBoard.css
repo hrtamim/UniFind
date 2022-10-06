@@ -1,0 +1,18 @@
+.largeText{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+font-size: 60px;
+font-weight: bold;
+}
+.belowText{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+
+    
+}

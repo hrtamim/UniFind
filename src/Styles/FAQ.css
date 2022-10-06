@@ -1,0 +1,27 @@
+.topBox{
+height: 4vw;
+width: 100vw;
+background-color: #255f3e ;
+color:goldenrod;
+padding-left: 2vw;
+justify-content: center;
+font-size: larger;
+font-weight: 600;
+align-items: center;
+padding-top: 1vw;
+}
+.list{
+    margin-left: 5vw;
+}
+.question{
+    margin-top: 10px;
+}
+.textLine{
+    
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    font-style: italic;
+    text-decoration: underline;
+
+}

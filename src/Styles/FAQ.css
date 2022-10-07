@@ -1,14 +1,16 @@
 .topBox{
-height: 4vw;
+
 width: 100vw;
 background-color: #255f3e ;
 color:goldenrod;
 padding-left: 2vw;
 justify-content: center;
-font-size: larger;
+font-size: 30px;
 font-weight: 600;
 align-items: center;
 padding-top: 1vw;
+margin-bottom: 10px;
+padding-bottom: 10px;
 }
 .list{
     margin-left: 5vw;
@@ -18,10 +20,12 @@ padding-top: 1vw;
 }
 .textLine{
     
-    align-items: center;
+    
     display: flex;
     margin-top: 10px;
     font-style: italic;
     text-decoration: underline;
+    font-size: 3vw;
+    flex-wrap: wrap;
 
 }

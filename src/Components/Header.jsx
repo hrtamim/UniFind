@@ -11,10 +11,10 @@ const style = {
 
 export default function Header() {
     return (
-        <Row style={{ display: 'flex',height:45,backgroundColor:'rgb(25, 10, 241)',alignItems:'center',textAlign:'center',overflow:'hidden'}}>
+        <Row style={{ display: 'flex',height:60,backgroundColor:'rgb(25, 10, 241)',alignItems:'center',textAlign:'center',overflow:'hidden'}}>
             <Col span={6}>
                 <div className="columnBox1"
-                     >UniFindBD</div>
+                     >UniFindBD</div> 
             </Col>
             <Col span={6}>
                 <Search/>

@@ -8,3 +8,17 @@
 .headLine1{
     font-size: larger;font-weight: bold;color: red; margin-left: 5px;
 }
+.cartContainer{
+     width: '100%';
+      background-color: red;
+       height: 50px; align-items: 'center';
+        justify-content: 'center' ;
+        font-size: 50px;
+    }
+.cartView{
+    justify-content: space-between;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -7,14 +7,14 @@ import '../Styles/Home.css'
 export default function Home(label, key, icon, children, type) {
   return (
     <div>
-      <div style={{ width: '100%', backgroundColor: 'red', height: 50, alignItems: 'center', justifyContent: 'center' }}>
+      <div className='cartContainer'>
         <OurService />
       </div>
-      <div style={{ display: 'flex' }}>
-        <BoxCart />
-        <BoxCart />
-        <BoxCart />
-        <BoxCart />
+      <div className='cartView'>
+        <BoxCart style={{backgroundColor:'#4d004d'}} />
+        <BoxCart style={{backgroundColor:'blue'}} /> 
+        <BoxCart style={{backgroundColor:'#4d004d'}} />
+        <BoxCart style={{backgroundColor:'blue'}} />
       </div>
       <div className='boxx'>
         <div className='headLine'> Advantages of Applying through</div>

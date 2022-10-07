@@ -4,7 +4,8 @@ import image from '../../src/img/UIU.jpg'
 
 export default function NoticeBoard() {
   return (
-    <div style={{ backgroundImage: `url(${image})`, height: 600, width: '100%' }}>
+    <div>
+      <div style={{ backgroundImage: `url(${image})`, height: 600, width: '100%' }}>
       <div style={{ height: 600, width: '100%', paddingTop: 250 }}>
         <div className='largeText'>
           Admission
@@ -21,6 +22,10 @@ export default function NoticeBoard() {
           </div>
         </div>
       </div>
+    </div>
+    <div className='NoticeHeadline'>
+Admission Notice
+    </div>
     </div>
   )
 }

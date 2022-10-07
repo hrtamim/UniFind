@@ -10,7 +10,7 @@ export default function FAQ() {
       </div>
       <div className='list'>
         <div className='question'>
-          <div className='textLine'>< BsPlusCircle style={{ marginRight: 10 }} /> Do the have Parmanent Campus?</div>
+          <div className='textLine'>< BsPlusCircle style={{ marginRight: 10, }} /> Do the have Permanent Campus?</div>
           <div className='textLine'>< BsPlusCircle style={{ marginRight: 10 }} /> Do they provide hostel facilities for outside students?</div>
           <div className='textLine'>< BsPlusCircle style={{ marginRight: 10 }} /> Canteen Available?</div>
           <div className='textLine'>< BsPlusCircle style={{ marginRight: 10 }} /> What about sports activites?</div>

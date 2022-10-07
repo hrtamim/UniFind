@@ -14,5 +14,16 @@ font-weight: bold;
     justify-content: center;
     font-weight: bold;
 
+     
+}
+.NoticeHeadline{
     
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+text-align: center;
+margin-top: 30px;
+font-size: 25px;
+margin-bottom: 30px;
 }

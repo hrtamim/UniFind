@@ -1,11 +1,13 @@
 .searchContainer{
-    width: 170px;
+    min-width: 170px;
     background-color: aliceblue;
     border-radius: 12.5px;
     height: 25px;
     display: flex;
-    margin-left:30px;
+    margin-left:15vw;
     align-items: center;
+    height: 30px;
+    width: 300px;
 }
 .searchContainer input{
     width: 80%;

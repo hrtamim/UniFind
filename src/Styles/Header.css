@@ -1,80 +1,82 @@
-.columnBox1{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 30px;
-font-size: 20px;
-font-weight: bold;
-text-align: center;
-display: flex;
+.header{
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
-.columnBox2{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-text{
+    font-size: 30px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    width: 20%;
+    justify-content: center;
+    display: flex;
 }
-.columnBox3{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-menu{
+    display: flex;
+    width: 50%;
+    color: aliceblue;
+    align-items: center;
+    height: 100%;
+    margin-left: 8%;
 }
-.columnBox4{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-menu div{
+    margin: 10px;
+    color: aliceblue;
+   
 }
-.columnBox5{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-search{
+    width:30%;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 12.5px;
+    height: 25px;
+    display: flex;
+    margin-left:15vw;
+    align-items: center;
+    height: 30px;
+    margin-left: 2%;
 }
-.columnBox6{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content:center;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-search input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
 }
-
-.columnBox7{
-    height: 45px;
-color: aliceblue;
-align-items: center;
-justify-content: end;
-margin-left:30px;
-margin-right: 10px;
-font-size: 15px;
-text-align: center;
-display: flex;
+.header-menu-icon{
+    width: 0;
+    height: 0;
+    overflow: hidden;
 }
-
+@media (max-width:1000px) {
+    .header-menu{
+       display: block;
+       color: black;
+       display: none;
+    }
+    .header-menu div{
+        color: black;
+        font-size: 20px;
+    }
+    .header-menu-icon{
+        width: 80px;
+        height: 80px;
+        color: aliceblue;
+        position: absolute;
+        top: 2%;
+        right: -10px;
+    }
+    .header-search{
+        margin-right: 90px;
+    }
+    .header-text{
+        font-size: 15px;
+    }
+}

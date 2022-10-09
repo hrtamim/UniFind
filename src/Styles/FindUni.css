@@ -1,24 +1,23 @@
 .findBox{
     width: 70vw;
-    height: 20px;
+    
     display: flex;
     margin-left: 15vw;
     margin-top: 5vw;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color:#04D8AE;
    
     font-style: italic;
-    font-size: 25px;
+    font-size: 30px;
 }
 .buttonBox{
     
     background-color: black;
     color: antiquewhite;
-    width: 150px;
     margin-bottom: 5vw;
     border-radius: 10px;
     padding: 10px;
@@ -35,7 +34,23 @@
     align-items: center;
     padding-bottom: 5px;
     text-align: center;
+    font-size: 20px;
     
     
 }
 
+.dropdown{
+    background-color: #04D8AE;
+    height: 30px;
+}
+ .inputFindUni{
+    
+        width:70vw;
+         margin-bottom: 10px;
+        
+        margin-top: 5px;
+         padding:10px;
+         border-radius:20px;
+          background-color: #7891BE;
+      
+ } 

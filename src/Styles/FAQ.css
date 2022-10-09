@@ -21,11 +21,12 @@ padding-bottom: 10px;
 .textLine{
     
     
-    display: flex;
+    display:block;
     margin-top: 10px;
     font-style: italic;
     text-decoration: underline;
-    font-size: 3vw;
+    font-size: 25px;
     flex-wrap: wrap;
+    align-items: center;
 
 }

@@ -1,0 +1,49 @@
+.totalPage{
+    height: 500px;
+    background-color:cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 40px;
+   
+}
+.boxA{
+    width: 50%;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 20px;
+}
+.boxB{
+    width: 50%;
+    padding: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+   
+    
+}
+.topText{
+    font-size:30px ;
+    font-weight: bold
+}
+.inputLogIn{
+    
+    width:40vw;
+     margin-top: 5px;
+     padding:5px;
+     border-radius:20px;
+    
+  
+}
+.LogButton{
+    width: 40vw;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+.textView{
+    width: 40vw;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+} 

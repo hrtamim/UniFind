@@ -1,0 +1,41 @@
+.totalBox{
+    width: 80vw;
+    height: 70px;
+    margin-left: 10vw;
+    display:flex ;
+    justify-content: center;
+    border-bottom:1px ;
+    border-bottom-style: dotted;
+}
+.firstBox{
+width: 50vw;
+flex-wrap: wrap;
+display: block;
+padding: 10px;
+justify-content: center;
+}
+.secondBox{
+
+width: 30vw;
+align-items: center;
+justify-content:end;
+display:flex;
+padding-right: 10px;
+}
+.largText{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.smallText{
+    text-align: left;
+    font-size: 12px;
+    
+}
+.moreButton{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    
+}

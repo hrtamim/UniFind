@@ -4,7 +4,7 @@ import { BsPlusCircle } from 'react-icons/bs';
 
 export default function FAQ() {
   return (
-    <div>
+    <div style={{marginBottom:'150px'}}>
       <div className='topBox'>
         Frequently Asked Questions
       </div>
@@ -18,9 +18,7 @@ export default function FAQ() {
 
         </div>
       </div>
-      <div style={{height:'30vw'}}>
-        
-      </div>
+      
     </div>
-  )
+  ) 
 }

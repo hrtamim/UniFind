@@ -1,8 +1,11 @@
-.contactUs{
+.contactUs{ 
 width: 50vw;
+padding: 30px;
+align-items: center;
+
 }
 .bigText{
-font-size: larger;
+font-size: 30px;
 font-weight: bold;
 margin-bottom: 10px;
 }
@@ -10,14 +13,34 @@ margin-bottom: 10px;
 align-items: center;
 justify-content: center;
 margin-top: 10vw;
-height: 30px;
+height: 30px; 
 width: 140px;
-font-size: large;
-font-weight: 500;
 color: goldenrod;
 background-color: #255f3e;
 outline: none;
 border-radius: 10px;
 margin-bottom: 80vw;
 
+}
+
+.about{
+    display: flex;
+    max-height: 600px;
+    overflow: hidden;
+}
+.about div{
+    padding: 5%;
+}
+@media (max-width:800px) {
+    .about{
+        display: flex;
+        max-height: 1000px;
+        flex-wrap: wrap;
+    }
+    .about div{
+        padding: 5%;
+    }
+    .about img{
+        margin-top: -400px;
+    }
 }

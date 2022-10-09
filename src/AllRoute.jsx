@@ -6,6 +6,7 @@ import AboutUs from './Screen/AboutUs';
 import FAQ from './Screen/FAQ';
 import FindUni from './Screen/FindUni';
 import Home from './Screen/Home';
+import LogIN from './Screen/LogIN';
 import NoticeBoard from './Screen/NoticeBoard';
 
 
@@ -20,7 +21,7 @@ export default function AllRoute() {
       <Route path="/FAQ" element={<FAQ />} />
       <Route path="/FindUni" element={<FindUni />} />
       <Route path="/NoticeBoard" element={<NoticeBoard />} />
-      
+      <Route path="/LogIn" element={<LogIN />} />
     </Routes>
     <Footer/>
     </div>

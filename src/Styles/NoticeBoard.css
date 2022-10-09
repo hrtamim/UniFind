@@ -27,3 +27,11 @@ margin-top: 30px;
 font-size: 25px;
 margin-bottom: 30px;
 }
+.searchView{
+    align-items: center; 
+    width: 80%;
+    background-color: aqua;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+
+}

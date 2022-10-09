@@ -1,19 +1,17 @@
 .Cartbox{
-    
-    width: 20%;
-    align-items: center;
+    width: 25%;
+     align-items: center;
     justify-content: center;
-    padding: 10px;
+     
     flex-wrap: wrap;
     
     display: flex;
+    padding-bottom: 10px;
     
 }
 @media (max-width:700px) {
     .Cartbox{
-        width: 40%;
-        
-       
+        width: 50vw;
         flex-wrap: wrap;
         
         
@@ -29,7 +27,7 @@
 .details{
     font-size:15px;
     color: antiquewhite;
-    margin-top: 10px;
+    margin: 10px;
     
 }
 .moreButton{ 

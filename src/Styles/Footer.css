@@ -1,19 +1,21 @@
 .footerBox{
-    height: 150px;
     background-color: black;
     display: flex;
     justify-content:space-between ;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.box1{
+.box1{ 
     color: aliceblue;
-    margin-left: 50px;
-    margin-top: 10px;
+   
+    
     display: flex;
-    width: 50%;
+    width: 50vw;
+    
     
 }
 .terms{
-    font-size: 10px;
+    font-size: 12px;
 margin-left: 20px;
 margin-bottom:10px;
 }
@@ -22,6 +24,54 @@ font-size: 15px;
 margin-top: 10px;
 }
 .paragraph{
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 10px;
+}
+.colOne{
+    width: 25vw;
+    margin-left: 5vw;
+}
+.colTwo{
+    width: 25vw;
+}
+@media (max-width:700px) {
+    .box1{ 
+        color:white;
+        
+        flex-wrap: wrap;
+        display: flex;
+        width:100vw;
+        
+        
+    }
+    .terms{
+        font-size: 12px;
+    
+    margin-bottom:10px;
+    margin-top: 10px;
+    }
+    .about{
+        font-size: 12px;
+        margin-top: 10px;
+        }
+        .paragraph{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .colOne{
+            width: 50vw;
+            
+        }
+        .colTwo{
+            width: 50vw;
+            margin-left: 5vw;
+        }
+        .footerBox{
+            background-color: black;
+            display: flex;
+            justify-content:space-between ;
+            flex-wrap: wrap;
+            padding-top: 10px;
+    padding-bottom: 10px;
+        }
 }

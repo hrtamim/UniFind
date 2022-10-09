@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className='footerBox'>
       <div className='box1'>
-        <div>
+        <div className='colOne'>
           <div className='terms'>
             Terms and conditions | Transparency
           </div>
@@ -24,10 +24,8 @@ export default function Footer() {
           </div>
 
         </div>
-        <div style={{width:'10%'}}>
 
-        </div>
-        <div style={{ marginTop: 15 }}>
+        <div className='colTwo' style={{ marginTop: 15 }}>
           <div className='about'>
             Media
           </div>
@@ -40,7 +38,7 @@ export default function Footer() {
         </div>
       </div>
       <div className='box1'>
-        <div style={{ marginTop: 15 }}>
+        <div className='colTwo' style={{ marginTop: 15 }}>
 
           <div className='about'>
             Contact us
@@ -49,16 +47,16 @@ export default function Footer() {
             Search
           </div>
         </div>
-        <div style={{ marginTop: 15,marginLeft:'10%',alignItems:'center' }}>
+        <div className='colTwo' style={{ marginTop: 15, alignItems: 'center' }}>
 
           <div className='about'>
             Social media
           </div>
           <AiFillLinkedin />
-          <BsFacebook style={{marginLeft:5}}/>
-          <FaInstagramSquare style={{marginLeft:5}}/>
-<IoLogoWhatsapp style={{marginLeft:5}}/>
-<AiFillYoutube style={{marginLeft:5}}/>
+          <BsFacebook style={{ marginLeft: 5 }} />
+          <FaInstagramSquare style={{ marginLeft: 5 }} />
+          <IoLogoWhatsapp style={{ marginLeft: 5 }} />
+          <AiFillYoutube style={{ marginLeft: 5 }} />
         </div>
       </div>
     </div>

@@ -51,12 +51,12 @@ export default function NoticeBoard() {
           onSearch={onSearch}
         />
       </div>
-      <div>
+      <div> 
         <Notice />
         <Notice />
         <Notice />
         <Notice />
-        <Notice />
+        <Notice /> 
         <Notice />
         <Notice />
       </div>

@@ -1,0 +1,30 @@
+.fullBox{
+    height: 500px;
+    width: 100%;
+    background-color: cornsilk;
+    padding: 50px;
+}
+.backBox{
+    
+    height: 300px;
+    background-color: blue;
+    border-radius: 30px;
+    align-items: center;
+    position: absolute;
+    width: 94%;
+    margin-top: 50px;
+    
+}
+.profileBox{
+    height: 100px;
+    width: 100px;
+    border-radius:50px ;
+    margin-top: -50px;
+    margin-left: 47%;
+    background-color: antiquewhite;
+}
+.infoBox{
+    color:aliceblue;
+    padding-left:50px ;
+    padding-top: 20px;
+}

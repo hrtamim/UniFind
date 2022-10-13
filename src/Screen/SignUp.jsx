@@ -1,13 +1,14 @@
 import React from 'react';
 import '../Styles/LogIN.css';
 import Wlc from '../img/Wlc.jpg';
+import signup from '../img/signup.png';
 import { Checkbox } from 'antd';
 const onChange = (e) => {
     console.log(`checked = ${e.target.checked}`);
 };
 
 
-function LogIN(props) {
+function SignUp(props) {
     return (
         <div className='totalPage'>
             <div style={{
@@ -22,39 +23,39 @@ function LogIN(props) {
             }}>
 
                 <div className='boxA'>
-                    <img src={Wlc} height='90%' width='90%'></img>
+                    <img src={signup} height='90%' width='90%'></img>
                 </div>
                 <div className='boxB'>
                     <div className='topText'>
-                        Log In
+                        Sign Up
                     </div>
                     <div style={{ fontSize: 16 }}>
-                        Please Login to Continue
+                        Please register here...
                     </div>
                     <div style={{ fontSize: 20 }}>
-                        Username
+                        Email
                     </div>
                     <input className='inputLogIn' type={'text'} /> <br />
                     <div style={{ fontSize: 20 }}>
                         Password
                     </div>
                     <input className='inputLogIn' type={'text'} /> <br />
-                    <div style={{ display: 'flex', justifyContent: 'space-between', width: '40vw', marginTop: 10 }} >
-                        <Checkbox onChange={onChange}>Keep me logged in</Checkbox>
-                        <div style={{
-                            fontSIze: 8,
-                            marginLeft: 20
-                        }}>
-                            Forgot Password?
-                        </div>
+                    <div style={{ fontSize: 20 }}>
+                        Re-type Password
                     </div>
-                    <button className='LogButton'>Login</button>
+                    <input className='inputLogIn' type={'text'} /> <br />
+                    <div style={{ display: 'flex', justifyContent: 'space-between', width: '40vw', marginTop: 10 }} >
+                        <Checkbox onChange={onChange}>Remember me</Checkbox>
+                        
+                    </div>
+                    <button className='LogButton'>Sign Up</button>
                     
+                
                 </div>
-            </div>
+            </div>  
             
         </div>
     );
 }
 
-export default LogIN;
+export default SignUp;

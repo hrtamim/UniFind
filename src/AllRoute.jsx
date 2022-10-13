@@ -8,7 +8,8 @@ import FindUni from './Screen/FindUni';
 import Home from './Screen/Home';
 import LogIN from './Screen/LogIN';
 import NoticeBoard from './Screen/NoticeBoard';
-
+import Profile from './Screen/Profile';
+import SignUp from './Screen/SignUp';
 
 export default function AllRoute() {
   return (
@@ -22,6 +23,8 @@ export default function AllRoute() {
       <Route path="/FindUni" element={<FindUni />} />
       <Route path="/NoticeBoard" element={<NoticeBoard />} />
       <Route path="/LogIn" element={<LogIN />} />
+      <Route path="/SignUp" element={<SignUp />} />
+      <Route path="/Profile" element={<Profile />} />
     </Routes>
     <Footer/>
     </div>

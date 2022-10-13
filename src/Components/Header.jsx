@@ -53,13 +53,13 @@ export default function Header() {
                 <Link to="/AboutUs" className="colBox6"
                 ><div>About Us</div></Link>
 
-                <div className='header-icon'>
-                    <div className="colBox7"
-                    ><BiUserCircle /></div>
-                </div>
+                <Link to="/Profile" className="colBox6"
+                ><div><BiUserCircle /></div></Link>
+
+                
             </div>
             <Drawer title="Menus" placement="right" onClose={onClose} open={open}>
-                <div className='header-menu' style={{display:"block"}}>
+                <div className='header-menu' style={{ display: "block" }}>
 
 
                     <Link to="/" className="colBox2"
@@ -81,10 +81,10 @@ export default function Header() {
                     <Link to="/AboutUs" className="colBox6"
                     ><div onClick={onClose}>About Us</div></Link>
 
-                    <div className='header-icon'>
-                        <div className="colBox7"
-                        ><BiUserCircle /></div>
-                    </div>
+                    <Link to="/Profile" className="colBox7"
+                    ><div onClick={onClose}><BiUserCircle /></div></Link>
+
+
                 </div>
             </Drawer>
         </div>

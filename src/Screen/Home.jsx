@@ -27,7 +27,7 @@ export default function Home(label, key, icon, children, type) {
           </div>
         </Carousel> 
       </div>
-      <div className='cartContainer'>
+      <div className='cartContainer'> 
         Our Services...
       </div>
       <div className='cartView'>
@@ -48,7 +48,7 @@ export default function Home(label, key, icon, children, type) {
             <Cart image={A1} headLine='BSc in CSE' text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' />
           </div>
           <div>
-            <Cart image={A1} headLine='New dsjdy fsfsdsd ddsafaf' text='sasaffds sdfgsd gsd g gsdgsdg ds gds gds g dsg sdg sdgds gs dg sdgdsg ds gds g sdg sd g sd gsdg ds g sd g sd gs dg' />
+            <Cart image={A1} headLine='Bsc in EEE ' text='sasaffds sdfgsd gsd g gsdgsdg ds gds gds g dsg sdg sdgds gs dg sdgdsg ds gds g sdg sd g sd gsdg ds g sd g sd gs dg' />
           </div>
         </Carousel>
       </div>
@@ -62,7 +62,7 @@ const SmallCart = ({ icon, title }) => {
       <div><ImAirplane style={{ color: 'white', width: '15px', height: '15px' }} /></div>
       <p>{title}</p>
     </div>
-  )
+  ) 
 }
 const Cart = ({ image, headLine, text }) => {
   return (

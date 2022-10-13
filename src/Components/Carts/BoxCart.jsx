@@ -10,9 +10,9 @@ export default function BoxCart(props) {
         Find everything you need to know about canada's education system, husing for students, a pre-departure checklist and more
       </div>
       
-        <div className='moreButton'>
+        <button className='moreButton'>
           Read More
-        </div>
+        </button>
       
     </div>
   )

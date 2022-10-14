@@ -1,0 +1,33 @@
+.slBox{
+    height: 50px;
+    width: 10%;
+    border-width: 1;
+    color: black;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+.nameBox{
+    height: 50px;
+    width: 50%;
+    border-width: 1;
+    color: black;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+.webBox{
+    height: 50px;
+    width: 40%;
+    border-width: 1;
+    color: rgb(0, 0, 0);
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+.bbox{
+    padding-left: 10vw; 
+    padding-right: 10vw; 
+    padding-top: 10px; 
+    padding-bottom:30px;
+}

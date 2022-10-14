@@ -6,6 +6,7 @@ export default function FindUni() {
   const [Select, setSelect] = React.useState()
   const [SelectArea, setSelectArea] = React.useState()
   const [SelectFaculty, setSelectFaculty] = React.useState()
+  const [SelectCost, setSelectCost] = React.useState()
 
   const menu = (
     <Menu
@@ -34,19 +35,19 @@ export default function FindUni() {
       ]}
     />
   );
-  const area = (
+  const cost = (
     <Menu
       items={[
         {
           label: <button onClick={() => {
-            setSelectArea('Dhaka')
-          }}>Dhaka</button>,
+            setSelectCost('4,00,000-5,00,000')
+          }}>4,00,000-5,00,000</button>,
           key: '0',
         },
         {
           label:  <button onClick={() => {
-            setSelectArea('Narayanganj')
-          }}>Narayanganj</button>,
+            setSelectCost('5,00,000-6,00,000')
+          }}>5,00,000-6,00,000</button>,
           key: '1',
         },
         {
@@ -54,10 +55,80 @@ export default function FindUni() {
         },
         {
           label: <button onClick={() => {
-            setSelectArea('Jessore')
-          }}>Jessore</button>,
+            setSelectCost('7,00,000-8,00,000')
+          }}>7,00,000-8,00,000</button>,
           key: '3',
         },
+        {
+          label: <button onClick={() => {
+            setSelectCost('7,00,000-8,00,000')
+          }}>8,00,000-9,00,000</button>,
+          key: '4',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectCost('7,00,000-8,00,000')
+          }}>9,00,000-10,00,000</button>,
+          key: '5',
+        },
+      ]}
+    />
+  );
+  const area = (
+    <Menu
+      items={[
+        {
+          label: <button onClick={() => {
+            setSelectArea('Dhanmondi')
+          }}>Dhanmondi</button>,
+          key: '0',
+        },
+        {
+          label:  <button onClick={() => {
+            setSelectArea('Mohakhali')
+          }}>Mohakhali</button>,
+          key: '1',
+        },
+        {
+          type: 'divider',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Badda')
+          }}>Badda</button>,
+          key: '3',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Basundhara R/A')
+          }}>Basundhara R/A</button>,
+          key: '3',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Savar')
+          }}>Savar</button>,
+          key: '3',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Tejgaon')
+          }}>Tejgaon</button>,
+          key: '3',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Banani')
+          }}>Banani</button>,
+          key: '3',
+        },
+        {
+          label: <button onClick={() => {
+            setSelectArea('Mirpur')
+          }}>Mirpur</button>,
+          key: '3',
+        },
+
       ]}
     />
   );
@@ -88,6 +159,7 @@ export default function FindUni() {
       ]}
     />
   );
+ 
 
 
   return (
@@ -106,10 +178,19 @@ export default function FindUni() {
               padding: '10px',
             }}>{Select ? Select : 'Select Passing Year'}</div>
         </Dropdown> <br />
-        HSC/SSC Information <br />
-        <input className='inputFindUni' type={'text'} /> <br />
+        SSC Information <br />
+        <input className='inputFindUni' type={'text'} placeholder='Ex. 5.00' /> <br />
+        HSC Information <br />
+        <input className='inputFindUni' type={'text'} placeholder='Ex. 5.00' /> <br />
         Cost <br />
-        <input className='inputFindUni' type={'text'} /> <br />
+        <Dropdown overlay={cost} trigger={['click']}>
+            <div onClick={(e) => e.preventDefault()} style={{
+              width: '70vw',
+              backgroundColor: '#7891BE',
+              borderRadius: '20px',
+              padding: '10px',
+            }}>{SelectCost ? SelectCost : 'Select Cost'}</div>
+        </Dropdown><br/> 
         Area <br />
         <Dropdown overlay={area} trigger={['click']}>
             <div onClick={(e) => e.preventDefault()} style={{

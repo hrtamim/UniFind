@@ -12,6 +12,7 @@ const onChange = (e) => {
 
 
 function SignUp(props) {
+    const [Name,setName]=React.useState()
     const [Email,setEmail]=React.useState()
     const [Password,setPassword]=React.useState()
     const [RePassword,setRePassword]=React.useState()
@@ -55,7 +56,7 @@ function SignUp(props) {
           // ..
         });
     }
-    return (
+    return ( 
         <div className='totalPage'>
             <div style={{
                 marginTop: 10,
@@ -79,17 +80,21 @@ function SignUp(props) {
                         Please register here...
                     </div>
                     <div style={{ fontSize: 20 }}>
+                        Name
+                    </div>
+                    <input onChange={e=>setName(e.target.value)} className='inputLogIn' placeholder='Your Name' type={'text'} /> <br />
+                    <div style={{ fontSize: 20 }}>
                         Email
                     </div>
-                    <input onChange={e=>setEmail(e.target.value)} className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setEmail(e.target.value)} className='inputLogIn' placeholder='Ex. saiful@gmail.com' type={'text'} /> <br />
                     <div style={{ fontSize: 20 }}>
                         Password
                     </div>
-                    <input onChange={e=>setPassword(e.target.value)} className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setPassword(e.target.value)} className='inputLogIn' placeholder='More than 6 characters' type={'text'} /> <br />
                     <div style={{ fontSize: 20 }}>
                         Re-type Password
                     </div>
-                    <input onChange={e=>setRePassword(e.target.value)} className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setRePassword(e.target.value)} className='inputLogIn' placeholder='More than 6 characters' type={'text'} /> <br />
                     <div style={{ display: 'flex', justifyContent: 'space-between', width: '40vw', marginTop: 10 }} >
                         <Checkbox onChange={onChange}>Remember me</Checkbox>
                         

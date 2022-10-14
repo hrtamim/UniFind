@@ -12,6 +12,7 @@ import Profile from './Screen/Profile';
 import SignUp from './Screen/SignUp';
 import {auth} from './firebase'
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import Results from './Screen/Results';
 
 export default function AllRoute() {
   const [user,setUser]= React.useState(null)
@@ -41,6 +42,7 @@ export default function AllRoute() {
       <Route path="/NoticeBoard" element={<NoticeBoard />} />
       <Route path="/LogIn" element={<LogIN />} />
       <Route path="/SignUp" element={<SignUp />} />
+      <Route path="/Results" element={<Results />} />
       <Route path="/Profile" element={user?<Profile user={user}/>:<LogIN />} />
     </Routes>
     <Footer/>

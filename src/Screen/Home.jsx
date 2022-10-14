@@ -5,6 +5,7 @@ import '../Styles/Home.css';
 import A1 from '../img/A1.jpg';
 import { ImAirplane } from 'react-icons/im';
 import CSE from '../img/CSE.JPG';
+import A2 from '../img/A2.jpg'
 
 
 export default function Home(label, key, icon, children, type) {
@@ -20,13 +21,13 @@ export default function Home(label, key, icon, children, type) {
       <div style={{ width: '100%' }}>
         <Carousel autoplay>
           <div>
-            <img src={A1} width='100%' height="800" ></img>
+            <img src={A1} width='100%' height="600" ></img>
           </div>
           <div>
-            <img src={A1} width='100%' height="800" ></img>
+            <img src={A2} width='100%' height="600" ></img>
           </div>
         </Carousel> 
-      </div>
+      </div> 
       <div className='cartContainer'> 
         Our Services...
       </div>
@@ -48,7 +49,7 @@ export default function Home(label, key, icon, children, type) {
             <Cart image={A1} headLine='BSc in CSE' text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' />
           </div>
           <div>
-            <Cart image={A1} headLine='Bsc in EEE ' text='sasaffds sdfgsd gsd g gsdgsdg ds gds gds g dsg sdg sdgds gs dg sdgdsg ds gds g sdg sd g sd gsdg ds g sd g sd gs dg' />
+            <Cart image={A2} headLine='Bsc in EEE ' text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.' />
           </div>
         </Carousel>
       </div>

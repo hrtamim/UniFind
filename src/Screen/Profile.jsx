@@ -31,33 +31,35 @@ function Profile(props) {
                 <div className='profileBox'>
                     <img src={student} height='100' width='100' borderRadious='47'></img>
                 </div>
-                <div style={{ marginLeft: '-20vw',marginRight:"10vw" ,marginTop:20}}>
+                <div style={{ marginLeft: '30%',marginRight:"10vw" ,marginTop:20,color:'#fff'}}>
                     <Form {...layout} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
                         <Form.Item 
                             name={['user', 'name']}
-                            label="Name"
+                            
                             rules={[
                                 {
                                     required: true,
                                 },
                             ]}
                         >
+                        <p style={{color:'#fff'}}>Name</p>
                             <Input />
                         </Form.Item>
                         <Form.Item
                             name={['user', 'email']}
-                            label="Email"
+                           
                             rules={[
                                 {
                                     type: 'email',
                                 },
                             ]}
                         >
+                        <p style={{color:'#fff'}}>Email</p>
                             <Input />
                         </Form.Item>
                         <Form.Item
                             name={['user', 'age']}
-                            label="Age"
+                            
                             rules={[
                                 {
                                     type: 'number',
@@ -66,10 +68,12 @@ function Profile(props) {
                                 },
                             ]}
                         >
+                        <p style={{color:'#fff'}}>Age</p>
                             <InputNumber />
                         </Form.Item>
                         
-                        <Form.Item name={['user', 'introduction']} label="Introduction">
+                        <Form.Item name={['user', 'introduction']} >
+                        <p style={{color:'#fff'}}>Introduction</p>
                             <Input.TextArea />
                         </Form.Item>
                         <Form.Item

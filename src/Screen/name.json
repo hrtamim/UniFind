@@ -1,0 +1,116 @@
+[
+ {
+  "Area": "Dhanmondi",
+  "Result": 2.5,
+  "Budget": "5,00,000-6,00,000",
+  "Name": "Stamford University"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "4,00,000-5,00,000",
+  "Name": "IBAIS University",
+  "Area": "Dhanmondi"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "7,00,000-8,00,000",
+  "Name": "University of Liberal Arts Bangladesh",
+  "Area": "Dhanmondi"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "7,00,000-8,00,000",
+  "Name": "University Of Asia Pacific",
+  "Area": "Dhanmondi"
+ },
+ {
+  "Area": "Mohakhali",
+  "Result": 2.5,
+  "Budget": "9,00,000-10,00,00",
+  "Name": "Brac University"
+ },
+ {
+  "Area": "Badda",
+  "Result": 2.5,
+  "Budget": "8,00,000-9,00,000",
+  "Name": "East West University"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "7,00,000-8,00,000",
+  "Name": "Canadian University",
+  "Area": "Badda"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "5,00,000-6,00,000",
+  "Name": "Dhaka International University",
+  "Area": "Badda"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "7,00,000-8,00,000",
+  "Name": "United International University",
+  "Area": "Badda"
+ },
+ {
+  "Area": "Basundhara",
+  "Result": 2.5,
+  "Budget": "9,00,000-10,00,00",
+  "Name": "American International University-Bangladesh"
+ },
+ {
+  "Result": 3.5,
+  "Budget": "10,00,000-11,00,000",
+  "Name": "Northsouth University",
+  "Area": "Basundhara"
+ },
+ {
+  "Result": 3.5,
+  "Budget": "9,00,000-10,00,00",
+  "Name": "Independent University",
+  "Area": "Basundhara"
+ },
+ {
+  "Area": "Savar",
+  "Result": 2.5,
+  "Budget": "7,00,000-8,00,000",
+  "Name": "Daffodil International Uniersity"
+ },
+ {
+  "Area": "Tejgaon",
+  "Result": 2.5,
+  "Budget": "4,00,000-5,00,000",
+  "Name": "Sonargaon University"
+ },
+ {
+  "Result": 3.5,
+  "Budget": "8,00,000-9,00,000",
+  "Name": "Ahsanullah University Of Science And Technology",
+  "Area": "Tejgaon"
+ },
+ {
+  "Area": "Banani",
+  "Result": 2.5,
+  "Budget": "5,00,000-6,00,000",
+  "Name": "City University"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "6,00,000-7,00,000",
+  "Name": "Southeast University",
+  "Area": "Banani"
+ },
+ {
+  "Area": "Mirpur",
+  "Result": 2.5,
+  "Budget": "6,00,000-7,00,000",
+  "Name": "Green University Bangladesh"
+ },
+ {
+  "Result": 2.5,
+  "Budget": "4,00,000-5,00,000",
+  "Name": "Bangladesh University of Business and Technology",
+  "Area": "Mirpur"
+ }
+]

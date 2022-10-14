@@ -10,11 +10,28 @@ import LogIN from './Screen/LogIN';
 import NoticeBoard from './Screen/NoticeBoard';
 import Profile from './Screen/Profile';
 import SignUp from './Screen/SignUp';
+import {auth} from './firebase'
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 export default function AllRoute() {
+  const [user,setUser]= React.useState(null)
+
+  React.useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+       setUser(user);
+      } else {
+        
+      }
+    });
+  },[])
   return (
-    <div>
-        <Header/>
+    <div style={{
+      width: '100%',
+      overflow: 'hidden',
+    }}>
+        <Header user={user}/>
     <Routes>
         
       <Route path="/" element={<Home />} />
@@ -24,7 +41,7 @@ export default function AllRoute() {
       <Route path="/NoticeBoard" element={<NoticeBoard />} />
       <Route path="/LogIn" element={<LogIN />} />
       <Route path="/SignUp" element={<SignUp />} />
-      <Route path="/Profile" element={<Profile />} />
+      <Route path="/Profile" element={user?<Profile user={user}/>:<LogIN />} />
     </Routes>
     <Footer/>
     </div>

@@ -2,13 +2,59 @@ import React from 'react';
 import '../Styles/LogIN.css';
 import Wlc from '../img/Wlc.jpg';
 import signup from '../img/signup.png';
-import { Checkbox } from 'antd';
+import {BiLoader} from 'react-icons/bi'
+import {auth }from '../firebase'
+import { Checkbox,message,Spin } from 'antd';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 const onChange = (e) => {
     console.log(`checked = ${e.target.checked}`);
 };
 
 
 function SignUp(props) {
+    const [Email,setEmail]=React.useState()
+    const [Password,setPassword]=React.useState()
+    const [RePassword,setRePassword]=React.useState()
+    const [Loader,setLoader]=React.useState(false)
+
+    const signUp=() => {
+        if(!Email){
+            message.warning("Please enter email address")
+            return
+        }
+        if(!Password){
+            message.warning("Please enter password")
+            return
+        }
+        if(!RePassword){
+            message.warning("Please enter password again")
+            return
+        }
+        if(Password!=RePassword){
+            message.warning("Password are not matched")
+            return
+        }
+        if(Password.length<6){
+            message.warning("Password must be getter then 6 characters")
+            return
+        }
+        setLoader(true)
+        createUserWithEmailAndPassword(auth, Email, Password)
+        .then((userCredential) => {
+          // Signed in 
+          setLoader(false)
+          const user = userCredential.user;
+          window.location.href ="/Profile"
+          // ...
+        })
+        .catch((error) => {
+            setLoader(false)
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          message.error(errorMessage)
+          // ..
+        });
+    }
     return (
         <div className='totalPage'>
             <div style={{
@@ -35,20 +81,20 @@ function SignUp(props) {
                     <div style={{ fontSize: 20 }}>
                         Email
                     </div>
-                    <input className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setEmail(e.target.value)} className='inputLogIn' type={'text'} /> <br />
                     <div style={{ fontSize: 20 }}>
                         Password
                     </div>
-                    <input className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setPassword(e.target.value)} className='inputLogIn' type={'text'} /> <br />
                     <div style={{ fontSize: 20 }}>
                         Re-type Password
                     </div>
-                    <input className='inputLogIn' type={'text'} /> <br />
+                    <input onChange={e=>setRePassword(e.target.value)} className='inputLogIn' type={'text'} /> <br />
                     <div style={{ display: 'flex', justifyContent: 'space-between', width: '40vw', marginTop: 10 }} >
                         <Checkbox onChange={onChange}>Remember me</Checkbox>
                         
                     </div>
-                    <button className='LogButton'>Sign Up</button>
+                    <button onClick={signUp} className='LogButton'> {Loader&&(<Spin indicator={<BiLoader style={{color:'white'}}/>}/>)}Sign Up</button>
                     
                 
                 </div>

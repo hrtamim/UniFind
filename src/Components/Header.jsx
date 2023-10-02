@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Styles/Header.css'
-import { Col, Row, } from 'antd';
-import Search from './Search';
 import { BiUserCircle } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import '../Styles/Search.css'
@@ -100,37 +98,3 @@ export default function Header() {
 
 
 
-
-// <Row className='headerBox'>
-//             <Col span={6}>
-//                 <div className="colBox1"
-//                      >UniFindBD</div>
-//             </Col>
-//             <Col span={6}>
-//                 <Search/>
-//             </Col>
-            // <Col span={6}>
-            //     <Link  to="/" className="colBox2"
-            //          >Home</Link>
-            // </Col>
-            // <Col span={6}>
-            //     <Link to="/NoticeBoard" className="colBox3"
-            //          >Notice Board</Link>
-            // </Col>
-            // <Col span={6}>
-            //     <Link to="/FindUni" className="colBox4"
-            //          >Find Uni</Link>
-            // </Col>
-            // <Col span={6}>
-            //     <Link to ="/FAQ" className="colBox5"
-            //          >FAQ's</Link>
-            // </Col>
-            // <Col span={6}>
-            //     <Link to="/AboutUs" className="colBox6"
-            //          >About Us</Link>
-            // </Col>
-            // <Col span={6}>
-            //     <div  className="colBox7"
-            //          ><BiUserCircle/></div>
-            // </Col>
-//         </Row>
